@@ -16,3 +16,7 @@ def resample_sales(df, freq='W'):
 def format_currency(series):
     """Format pandas series as currency"""
     return series.apply(lambda x: f'₹{x:,.2f}')
+    # Example: Add this to notebooks/utils.py
+def new_analysis_function():
+    """Your new analysis logic"""
+    pass
